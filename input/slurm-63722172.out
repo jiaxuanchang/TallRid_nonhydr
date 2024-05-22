@@ -1,0 +1,5 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Compiler/gcc9/openmpi/4.0.3/bin/mpiexec
+/scratch/jxchang/TallRid/results/TideU048sinN0012H200ho140f00Ah0200Kh0200_freeslipBotSide_Cdqdt001/input
+-rwxr-x--- 1 jxchang jxchang 1711288 Mar 14 13:09 ../build/mitgcmuv
+Starting: /scratch/jxchang/TallRid/results/TideU048sinN0012H200ho140f00Ah0200Kh0200_freeslipBotSide_Cdqdt001
+slurmstepd: error: *** JOB 63722172 ON cdr2440 CANCELLED AT 2023-03-29T22:27:09 ***

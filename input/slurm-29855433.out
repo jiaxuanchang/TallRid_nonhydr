@@ -1,0 +1,31 @@
+/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Compiler/gcc12/openmpi/4.1.5/bin/mpiexec
+/scratch/jxchang/TallRid_nonhydr/results/TideU064sinN0012H200ho040f00Ah0200Kh0200_freeslipBotSide_Cdqdt001/input
+-rwxr-x--- 1 jxchang jxchang 3100952 Apr 25 08:20 ../build/mitgcmuv
+Starting: /scratch/jxchang/TallRid_nonhydr/results/TideU064sinN0012H200ho040f00Ah0200Kh0200_freeslipBotSide_Cdqdt001
+forrtl: severe (36): attempt to access non-existent record, unit 9, file /scratch/jxchang/TallRid_nonhydr/results/TideU064sinN0012H200ho040f00Ah0200Kh0200_freeslipBotSide_Cdqdt001/input/../indata/T0.bin
+Image              PC                Routine            Line        Source             
+libifcoremt.so.5   00002B274E3F4F46  for__io_return        Unknown  Unknown
+libifcoremt.so.5   00002B274E422AEE  for_read_dir_xmit     Unknown  Unknown
+libifcoremt.so.5   00002B274E420A3E  for_read_dir          Unknown  Unknown
+mitgcmuv           0000000000495840  Unknown               Unknown  Unknown
+mitgcmuv           00000000005093E8  Unknown               Unknown  Unknown
+mitgcmuv           000000000060154D  Unknown               Unknown  Unknown
+mitgcmuv           00000000005E3F15  Unknown               Unknown  Unknown
+mitgcmuv           00000000006022F9  Unknown               Unknown  Unknown
+mitgcmuv           0000000000625058  Unknown               Unknown  Unknown
+mitgcmuv           0000000000625299  Unknown               Unknown  Unknown
+mitgcmuv           000000000057AD01  Unknown               Unknown  Unknown
+mitgcmuv           0000000000403602  Unknown               Unknown  Unknown
+libc-2.30.so       00002B2750D97E1B  __libc_start_main     Unknown  Unknown
+mitgcmuv           000000000040351A  Unknown               Unknown  Unknown
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpiexec detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[52561,1],0]
+  Exit code:    36
+--------------------------------------------------------------------------
