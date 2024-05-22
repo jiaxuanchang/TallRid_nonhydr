@@ -1,3 +1,5 @@
+# Tidal Stratified Flow over Shallow Supercritical Topography
+
 Code to generate the simulations reported in "Saturation of Internal Tide Generation over Shallow Supercritical Topography" by Chang, J-X and Klymak, J. M.
 
 # Some Runs on CEDAR.computecanada.ca
