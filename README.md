@@ -1,3 +1,5 @@
+Code to generate the simulations reported in "Saturation of Internal Tide Generation over Shallow Supercritical Topography" by Chang, J-X and Klymak, J. M.
+
 # Some Runs on CEDAR.computecanada.ca
 
 ## Contents:
@@ -10,7 +12,7 @@
 
   - cannot seem to get netcdf to work
   - work in `project/jxchang/`.  I do a softlink: `ln -s /home/jxchang/project/jxchang/TallRid_nonhydr TallRid_nonhydr`.  
-  - link 'results/' to `/home/jklymak/scratch/AbHillTide`
+  - link 'results/' to `/home/jxchang/scratch/TallRid_nonhydr`
 
 ## To compile on Cedar
 
