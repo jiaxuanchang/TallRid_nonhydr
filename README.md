@@ -9,7 +9,7 @@
 ## Vagaries
 
   - cannot seem to get netcdf to work
-  - work in `project/jklymak/`.  I do a softlink: `ln -s /home/jklymak/project/jklymak/AbHillTide AbHillTide`.  
+  - work in `project/jxchang/`.  I do a softlink: `ln -s /home/jxchang/project/jxchang/TallRid_nonhydr TallRid_nonhydr`.  
   - link 'results/' to `/home/jklymak/scratch/AbHillTide`
 
 ## To compile on Cedar
